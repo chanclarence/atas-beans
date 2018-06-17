@@ -30,6 +30,10 @@ div.container {
     min-height: 100vh;
 }
 
+#ourBeansContainer {
+    min-height: 90vh;
+}
+
 footer {
     color: rgb(90, 90, 90);
     font-size: 0.7em;
