@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    margin-top: 120px;
+    margin-top: 105px;
 }
 
 h2, .navbar-collapse, .placeOrder, footer, #form {
@@ -13,7 +13,7 @@ h2, .navbar-collapse, .placeOrder, footer, #form {
 
 #nav-bar {
     font-family: Source Sans Pro, sans-serif;
-    background-color: rgb(181, 148, 125);
+    background-color: rgb(124, 99, 82);
 }
 
 #header-img {
@@ -22,21 +22,26 @@ h2, .navbar-collapse, .placeOrder, footer, #form {
 
 h2 {
     font-family: Source Sans Pro, sans-serif;
-    padding-top: 0.5em;
+    padding-top: 0.7em;
     margin-bottom: 0.5em;
 }
 
-div.container {
-    min-height: 100vh;
+#ourBeansContainer, #pricingContainer, #contactUsContainer {
+    min-height: 93vh;
 }
 
-#ourBeansContainer {
-    min-height: 90vh;
+#pricingContainer {
+    background-color: rgba(215, 208, 203, 0.4);
 }
 
 footer {
     color: rgb(90, 90, 90);
     font-size: 0.7em;
+    background-color: rgba(215, 208, 203, 0.4);
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .card-title {
@@ -65,6 +70,6 @@ input {
 a.anchor {
     display: block;
     position: relative;
-    top: -120px;
+    top: -105px;
     visibility: hidden;
 }
