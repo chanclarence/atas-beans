@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: 'Merriweather Sans', sans-serif;
     background-image: url(images/pattern.svg);
 }
@@ -7,7 +7,7 @@ main {
     margin-top: 105px;
 }
 
-h2, .navbar-collapse, .placeOrder, footer, #form {
+h2, .navbar-collapse, .placeOrder, #form, footer {
     text-align: center;
 }
 
@@ -26,22 +26,28 @@ h2 {
     margin-bottom: 0.5em;
 }
 
-#ourBeansContainer, #pricingContainer, #contactUsContainer {
-    min-height: 93vh;
+#ourBeansSection, #pricingSection, #lastPage {
+    min-height: calc(100vh - 105px);
 }
 
-#pricingContainer {
+#pricingSection {
     background-color: rgba(215, 208, 203, 0.4);
+}
+
+#lastPage {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactUsSection {
+    flex: 1;
 }
 
 footer {
     color: rgb(90, 90, 90);
     font-size: 0.7em;
     background-color: rgba(215, 208, 203, 0.4);
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-top: 1.2em;
 }
 
 .card-title {
